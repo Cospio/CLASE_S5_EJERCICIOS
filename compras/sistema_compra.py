@@ -1,3 +1,4 @@
+
 while True:
     print("Bienvenido al sistema de compras")
     print("1. Entrar")

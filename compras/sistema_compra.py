@@ -1,9 +1,14 @@
-def saludar(nombre):
-    print(f"Hola, {nombre}! Bienvenido/a a la clase de Python.")
-personas_ingresan = int(input("¿Cuántas personas ingresan a la clase? "))
-lista_personas = []
-for i in range(personas_ingresan):
-    nombre = input("Ingrese el nombre de la persona: ")
-    lista_personas.append(nombre)
-for nombre in lista_personas:
-    saludar(nombre)
+while True:
+    print("Bienvenido al sistema de compras")
+    print("1. Entrar")
+    print("2. Salir")
+    
+    opcion = input("Seleccione una opción: ")
+    
+    if opcion == "1":
+        print("Entrando al sistema de compras...")
+    elif opcion == "2":
+        print("Saliendo del sistema de compras...")
+        break
+    else:
+        print("Opción no válida. Por favor, seleccione una opción válida.")
